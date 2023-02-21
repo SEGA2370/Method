@@ -36,6 +36,6 @@
 // console.log(result)
 
 
-let text = "Hello world!";
-let result = text.slice(7);
-console.log(result) // Result orld!
+// let text = "Hello world!";
+// let result = text.slice(7);
+// console.log(result) // Result orld!

@@ -1,7 +1,6 @@
 # Methods
 ## 1-)String
 ## 2-)Number
-![alt text](logo.jpg)
 
 ### Method is a block of code which only runs when it is called. 
 ### You can pass data, known as parameters, into a method. 
@@ -57,3 +56,5 @@
 
 #### The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end ( end not included) where start and end represent the index of items in that array.
 ![alt text](/img/Slice.PNG)
+
+## 8-) toLowerCase
