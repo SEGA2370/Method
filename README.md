@@ -58,3 +58,62 @@
 ![alt text](/img/Slice.PNG)
 
 ## 8-) toLowerCase
+![alt text](/img/ToLowerCase.PNG)
+
+## 9-) toUpperCase
+![alt text](/img/ToUpperCase.PNG)
+
+## 10-) Trim
+#### Method trim() removes whitespace from both sides of a string. trim() method does not change the original string.
+![alt text](/img/Trim.PNG)
+
+## 11-) Includes
+
+#### The includes() method returns true if a string contains a specified string. Otherwise it returns false. The includes() method is case sensitive.
+![alt text](/img/includes.PNG)
+
+## 12-) search 
+
+#### The search() method matches a string against a regular expression **    The search() method returns the index (position) of the first match.     The search() method returns -1 if no match is found.
+![alt text](/img/search.PNG)
+
+## 13-) toString
+#### Converts Number to String
+
+## 14-) indexOf
+#### The indexOf() method returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is not found.
+![alt text](/img/indexOf.PNG)
+
+## 15-) Repeat
+
+#### Repeats String Given times!
+
+
+
+# Number Methods
+
+### Math.round(),ceil(),floor
+#### Round if 4.5 and more converts NUM to 5 else to 4
+
+#### Floor if 4,99 Dropsdown to 4
+
+#### Ceil if 4.1 JumpsUp to 5
+
+
+
+### Math.max() && Math.min()
+#### max returns biggest NUM
+#### Min returns Smallest Num
+
+
+### Math.sqrt && Math.pow
+
+#### sqrt Returns Square Root of Number
+
+#### The pow() method computes the power of a number by raising the second argument to the power of the first argument.
+
+### is NAN
+![alt text](/img/IsNaN.PNG)
+
+#### Checks if it is Number or not Returns True And False
+

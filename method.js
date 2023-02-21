@@ -35,7 +35,49 @@
 // let result = text.substring(1, 4);
 // console.log(result)
 
-
+// Slice
 // let text = "Hello world!";
 // let result = text.slice(7);
 // console.log(result) // Result orld!
+
+// toLowerCase
+// let text = "SOFTCLUB!";
+// let result = text.toLowerCase();
+// console.log(result) //result softclub
+
+// // toUpperCase
+// let text1 = "softclub!";
+// let result1 = text1.toUpperCase();
+// console.log(result1) //result softclub
+
+// Trim
+// let text = "       Trim        ";
+// let result = text.trim();
+// console.log(result)  // trim removes space around
+
+
+// includes
+// let text = 'Hello SoftClub, welcome to the universe.'
+// let result = text.includes('SoftClub')
+// console.log(result)
+// // Start looking at Position 12
+// let text1 = 'Hello SoftClub, welcome to the universe.'
+// let result1 = text.includes('welcome',6)
+// console.log(result)
+
+// let text = "Mr. Blue has A blue House"
+// let result = text.search("has")
+// console.log(result) // Result 9 index
+
+
+// let text = "Mr. Blue has A blue House"
+// let result = text.indexOf("A")
+// console.log(result) // Result 13 index
+
+
+// let number = NAN;
+// let number2 = 1;
+// let result = isNaN(number)
+// let result2 = isNaN(number2)
+// console.log(result) // True
+// console.log(result2) //False
