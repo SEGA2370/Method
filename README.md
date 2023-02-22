@@ -1,4 +1,53 @@
-# Methods
+# 1-)Array Definition
+# 2-)Array Methods
+
+# 3-)Destructuring,spread and rest.
+
+### Array is:
+#### Массив в JavaScript — это упорядоченный список элементов с указанным индексом (ключом к ним). Когда мы хотим сохранить список определенных элементов, а затем получить к ним доступ с помощью одной переменной, именно тогда применяем массив
+
+#### You can also add elements or change the elements by accessing the index value
+
+#### Suppose, an array has two elements. If you try to add an element at index 3 (fourth element), the third element will be undefined. For example,
+![alt text](/img2/empty.PNG)
+
+
+### Array Methods
+![alt text](/img2/methods.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Methods Lecture1 # Methods
 ## 1-)String
 ## 2-)Number
 
@@ -115,5 +164,5 @@
 ### is NAN
 ![alt text](/img/IsNaN.PNG)
 
-#### Checks if it is Number or not Returns True And False
+#### Checks if it is Number or not Returns True And False -->
 
