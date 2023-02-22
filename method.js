@@ -26,7 +26,13 @@
 // let Merge=arr1.concat(arr2,arr3)
 // console.log(Merge)
 
-
+let sort=[2,1,4,3]
+sort.sort()
+console.log(sort)
+let sortfun=[2,20,40,5]
+sortfun.sort(function(a,b){return b-a})
+let sorted=sortfun
+console.log(sorted)
 
 
 
