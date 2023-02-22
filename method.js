@@ -3,8 +3,28 @@
 // a[3]='cow'
 // console.log(a)
 
+// let push=['eat', 'sleep'];
+// push.push('softclub')
+// // Result ['eat', 'sleep' 'softclub']
 
+// let unshift=['eat', 'sleep'];
+// unshift.unshift('softclub')
+// // Result [ 'softclub' 'eat', 'sleep' ]
 
+// let pop=['eat', 'sleep', 'softclub']
+// pop.pop()
+// console.log(pop)
+// // Removes Softclub Last Element
+// let shift=['eat', 'sleep', 'softclub']
+// shift.shift()
+// console.log(shift)
+// // Removes eat First Element
+
+// let arr1=['2','3','4']
+// let arr2=['5','6','7']
+// let arr3=['8','9',]
+// let Merge=arr1.concat(arr2,arr3)
+// console.log(Merge)
 
 
 

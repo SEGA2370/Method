@@ -15,6 +15,49 @@
 ### Array Methods
 ![alt text](/img2/methods.PNG)
 
+#### push()
+##### Adds Element at the end of your ARRAY
+
+### unshift()
+##### Adds Element at the begining of your ARRAY
+![alt text](/img2/Push-unshift.PNG)
+
+### Pop() - Shift
+#####  Removes Elements
+![alt text](/img2/pop-shift.PNG)
+
+### reverse()
+##### Reverses The Array Elements
+
+### concat()
+
+##### Merges Couple Arrays together
+![alt text](/img2/concat.PNG)
+
+#### The includes() 
+##### method returns true if an Array contains a specified string. Otherwise it returns false. The includes() method is case sensitive.
+
+
+#### The indexOf() 
+##### method returns the position of the first occurrence of a value in a string. The indexOf() method returns -1 if the value is not found.
+
+
+### splice()
+
+#### Takes 3 Parameters!. 
+#### Parameter No1 from where to start
+#### Parameter No2 how many to remove
+#### Parameter No3 What to Add
+
+### slice()
+#### The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end ( end not included) where start and end represent the index of items in that array.
+
+### Takes 2 Parameters (start, end) Show from start to end Rest Cut Off!!!
+
+## Callback Methods 
+![alt text](/img2/Callback%20M%20List.PNG)
+                        
+
 
 
 
