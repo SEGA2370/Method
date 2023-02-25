@@ -26,26 +26,84 @@
 // let Merge=arr1.concat(arr2,arr3)
 // console.log(Merge)
 
-let sort=[2,1,4,3]
-sort.sort()
-console.log(sort)
-let sortfun=[2,20,40,5]
-sortfun.sort(function(a,b){return b-a})
-let sorted=sortfun
-console.log(sorted)
+// let sort=[2,1,4,3]
+// sort.sort()
+// console.log(sort)
+// let sortfun=[2,20,40,5]
+// sortfun.sort(function(a,b){return b-a})
+// let sorted=sortfun
+// console.log(sorted)
 
 
+// REDUCE
+// const array1 =[1,2,3,4]
+// undefined
+// // 1*2*3*4
+// undefined
+// const start=1
+// undefined
+// const multiply = array1.reduce((a,b) => a*b ,start)
+// console.log(multiply)
 
+// Class Task Friday 24,02,2023
+// Q1 Even or Odd
+// function EvenOrOdd(arr)
+// {
+//     let arr1= arr.reduce((e, i) => (e + i), 0)
+//     return arr1%2===0?'even':'odd]'
+//     // let arr1= arr.reduce((e, i) => (e + i), 0)
+//     // let arr2=arr1%2
+//     // return [arr2].includes(0)
+   
+// }
+// console.log(EvenOrOdd([0,1,5]))
 
+// Q2 Number in String
+// function NumbersInString(arr)
+// {
+//  return arr.filter((e)=>{
+//     return e.includes(0) || e.includes(1) ||
+//      e.includes(2) || e.includes(3)
+//     || e.includes(4) || e.includes(5)
+//     || e.includes(6) || e.includes(7)
+//     || e.includes(8) || e.includes(9)
+//  })   
+// }
+// console.log(NumbersInString(['1a','a','2b','b']))
 
+// Q3 Mirror Array
+// function MirrorArray(arr)
+// {
+//  let arr1=[...arr].reverse().slice(1)
+//  let arr2=[...arr].concat(arr1)
+//  return arr2
+// }
+// console.log(MirrorArray([1,2,3,4,5,6,7,8,9]))
 
+// Q4 25Mile Marathon
+// function Marathon(arr)
+// {
+//     let arr1= arr.reduce((e, i) => Math.abs(e + i), 0)
+//     return [arr1].includes(25)
+// }
+// console.log(Marathon([-6,15,4]))
 
+// Q5 RemoveDuplicate
 
+// function DuplicateRemove(arr)
+// {
+//     return arr.filter((Element,Index) =>
+//     arr.indexOf(Element) === Index)
+// }
+// console.log(DuplicateRemove(['john','taylor','john']))
 
-
-
-
-
+// Q6Number to Reversed Array
+// function ReversedArray(arr)
+// {
+//     let arr1=Array.from(String(arr), Number);
+//     return arr1.reverse()
+// }
+// console.log(ReversedArray(12345))
 
 // Class Work 22.02.2023 Methods with aRRay
 // Q1 MIN&&MAX
@@ -57,25 +115,169 @@ console.log(sorted)
 // console.log(MaxMin(arr))
 
 // Q2 FindTrue
-// function CountTrue(arr)
+//  function CountTrue(arr)
+//  {
+//     return arr.filter((e)=>{return e==true}).length
+//  }
+//  console.log(CountTrue([true,false,true,false]))
+
+
+// Q3 Total Of All Array
+// function  MultiplyArray(...arr)
+// {
+//    let arr2= arr.map((a)=>{
+//     return a.reduce((x,y)=>
+//     {return x*y})
+// })
+// return arr2.reduce((a,b)=>{return a+b})
+// }
+// console.log(MultiplyArray([2,2,2],[2,1,1]))
+
+
+// Q4 DropElement
+// function FirstElements(arr,b)
+// {
+//     return arr.slice(b)
+// }
+// console.log(FirstElements([1,2,3],1))
+
+// Q5 Buggy Code
+// function BuggyCode(arr)
+// {
+//     return arr.reduce((x,y)=>{return x+y})
+// }
+// console.log(BuggyCode([1,2,3,4,5]))
+
+// Q6 Array to String
+// function ToString(arr)
+// {
+//     return arr.join("")
+// }
+// console.log(ToString([1,2,3,4,5]))
+
+// Q7 2ndLargest
+// function SecondLargest(arr)
+// {
+//     return arr.sort((function(a,b){return b-a}))[1]
+
+// }
+// console.log(SecondLargest([20,30,40,50,25]))
+
+// Q8 Find Index
+// function FindIndex(arr,b)
+// {
+//     return arr.indexOf(b)
+// }
+// console.log(FindIndex(['hi','fgh','he','gy','we'] , 'we'))
+
+// Q9 SumNumberElements
+// function SumElementNum(arr)
+// {
+//     let arr2= arr.filter(function (x,y){
+//         return typeof(x)==="number"
+//     })
+//     return arr2.reduce((a,b)=>{
+//         return a+b
+//     },0)
+// }
+// console.log(SumElementNum([true,false,'123','75']))
+
+// Q10 Multiply
+// function MultiplyElementIndex(arr)
 // {
     
+//     return arr.map(function(a,b)
+//     {return a*b}
+//     )
+//     .reduce(function(a,b)
+//     {return a+b}
+//     )
 // }
+// console.log(MultiplyElementIndex([-3,0,8,-6]))
+
+// Q11 Seven Boom
+// function SevenBoom(arr)
+// {
+//    let a= arr.join('')
+//    if (a.includes(7))
+//    {return "BOOM!"}
+//     else
+//     return "There is No 7"
+// }
+// console.log(SevenBoom([3, 0, 8, 6, 587]));
+
+
+// Q 12 Return Duplicate
+// function Duplicates(arr)
+// {
+//     return arr.filter((Element,Index) =>
+//     arr.indexOf(Element) !== Index)
+// }
+// console.log(Duplicates(['john','taylor','john']))
+
+// Q13 function RemoveString(arr)
+// {
+//     let arr2= arr.filter(function (x,y){
+//                 return typeof(x)==="number"
+//             })
+//             return arr2
+// }
+// console.log(RemoveString([1,2,3,"tr","sr"]))
+
+
+// Q14 EvenAlltheWay
+// function EvenAlltheWay(arr)
+// {
+//     let arr2
+//     arr2=arr.filter((a)=> (a%2===0))
+//     return arr2.filter((a,b)=> (b%2===0))  
+// }
+// console.log(EvenAlltheWay([1,3,2,6,4,8]))
+
+// Q15 Sort By.length
+// function SortFunction(arr)
+// {
+//     return arr.sort(function(a,b){return a.length - b.length})
+// }
+// console.log(SortFunction([,'Google','Apple','Microsoft']))
+
+// Q16 Compact
+// function Compact(arr)
+// {
+//     let arr2
+//     arr2=arr.filter((a)=> {return a!==false})
+//     .filter((a)=> {return a!==""})
+//     .filter((a)=> {return a!==null})
+//     .filter((a)=> {return a!==0})
+//     .filter((a)=> {return a!==undefined})
+//     .filter((a)=> {return a!==NaN})
+//     return arr2
+// }
+// console.log(Compact([0,1,false,2,"",3]))
+
+// Q17 Special Arrays
+// function SpecialArrays(arr)
+// {
+//  for(let i=0;i<arr.length;i++)
+//  {
+//     if(i%2===0 && arr[i]%2!==0)
+//     {
+//     return false
+//     }
+//     else if(i%2===1 && arr[i]%2!==1)
+//     {
+//         return false
+//     }
+// }
+// return true
+
+// }
+// console.log(SpecialArrays([2,3,4,5,6,7,8,9]))
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+// .filter((val, ind, arr) => arr.indexOf(val) === ind)
 // HomeTask Wednsday
 // Q1 Remove Vowels
 // function Vowels(a)

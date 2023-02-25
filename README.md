@@ -122,7 +122,7 @@
 
 
 
-<!-- Methods Lecture1 # Methods
+Methods Lecture1 # Methods
 ## 1-)String
 ## 2-)Number
 
@@ -239,5 +239,5 @@
 ### is NAN
 ![alt text](/img/IsNaN.PNG)
 
-#### Checks if it is Number or not Returns True And False -->
+#### Checks if it is Number or not Returns True And False
 
