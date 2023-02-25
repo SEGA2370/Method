@@ -122,7 +122,7 @@
 
 
 
-Methods Lecture1 # Methods
+### Methods Lecture1 # Methods
 ## 1-)String
 ## 2-)Number
 
