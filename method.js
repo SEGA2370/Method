@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 // wednsday lecture examples
 // let a=['sheep','sleep']
 // a[3]='cow'
@@ -83,12 +90,17 @@
 // Q4 25Mile Marathon
 // function Marathon(arr)
 // {
-//     let arr1= arr.reduce((e, i) => Math.abs(e + i), 0)
-//     return [arr1].includes(25)
+//     let arr1 = arr.reduce((a, b)=>{return Math.abs(a)+Math.abs(b)});
+//     if(arr1 == 25){
+//         return true
+//     }
+//     else{
+//         return false
+//     }
 // }
-// console.log(Marathon([-6,15,4]))
+// console.log(Marathon([-6,-15,-4]))
 
-// Q5 RemoveDuplicate
+// // Q5 RemoveDuplicate
 
 // function DuplicateRemove(arr)
 // {
