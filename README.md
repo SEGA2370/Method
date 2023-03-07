@@ -1,5 +1,44 @@
-<!-- DOM -->
-## Dom
+## Synchronous
+
+#### What is Synchronous in JavaScript? As its base JavaScript language is synchronous. Synchronous means the code runs in a particular sequence of instructions given in the program. Each instruction waits for the previous instruction to complete its execution.
+
+![alt text](/img5/sync.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ## Dom
 #### Этот раздел представляет краткое знакомство с Объектной Моделью Документа (DOM) - что такое DOM, каким образом предоставляются структуры HTML и XML документов, и как взаимодействовать с ними. Данный раздел содержит справочную информацию и примеры.
 
 ![alt text](/img4dom/DOM.PNG)
@@ -46,7 +85,7 @@
 ### **Удаляет у элемента указанные классы
 
 
-## toggle() позволяет отобразить или скрыть выбранные элементы. Если элемент изначально отображается, то он будет скрыт, если элемент скрыт, то он будет отображен.
+## toggle() позволяет отобразить или скрыть выбранные элементы. Если элемент изначально отображается, то он будет скрыт, если элемент скрыт, то он будет отображен. -->
 
 
 
@@ -416,4 +455,4 @@
 ![alt text](/img/IsNaN.PNG)
 
 #### Checks if it is Number or not Returns True And False
- --> -->
+ -->
