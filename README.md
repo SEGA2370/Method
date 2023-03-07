@@ -4,7 +4,10 @@
 
 ![alt text](/img5/sync.PNG)
 
+## Asynchronous JavaScript
+#### In this module, we take a look at asynchronous JavaScript, why it is important, and how it can be used to effectively handle potential blocking operations, such as fetching resources from a server.
 
+![alt text](/img5/async.PNG)
 
 
 
