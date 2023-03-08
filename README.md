@@ -61,10 +61,10 @@
 ![alt text](/img5/Delete.PNG)
 
 ## Axios
-
+![alt text](/img5/Axiosjs.jpg)
 #### Что такое Axios? Axios - это HTTP-клиент, основанный на Promise для node.js и браузера. Он изоморфный (= он может работать в браузере и node.js с той же базой кодов). На стороне сервера он использует нативный node.js http -модуль, тогда как на стороне клиента (браузер) он использует XMLHttpRequests.
 
-![alt text](/img5/Axiosjs.jpg)
+![alt text](/img5/Axios.PNG)
 
 
 
