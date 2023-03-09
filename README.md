@@ -1,4 +1,45 @@
-## Synchronous
+## JavaScript modules allow you to break up your code into separate files.
+
+## This makes it easier to maintain a code-base.
+
+## Modules are imported from external files with the import statement.
+
+## Modules also rely on type="module" in the <script> tag.
+
+<script type="module">
+import message from "./message.js";
+</script>
+
+## Export
+#### Modules with functions or variables can be stored in any external file.
+
+#### There are two types of exports: Named Exports and Default Exports.
+
+## Default Exports u Can only have 1 default Export
+
+![alt text](/img5/export.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ## Synchronous
 
 #### What is Synchronous in JavaScript? As its base JavaScript language is synchronous. Synchronous means the code runs in a particular sequence of instructions given in the program. Each instruction waits for the previous instruction to complete its execution.
 
@@ -66,7 +107,7 @@
 
 ![alt text](/img5/Axios.PNG)
 
-
+ -->
 
 
 
